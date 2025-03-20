@@ -205,20 +205,17 @@ header .menu_box-bg {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: beige;
-  outline: 1px solid red;
+  background-color: #fff;
   margin-top: 100px;
   z-index: -1;
   visibility: hidden;
   opacity: 0;
-  transform: translateY(-5px);
-  box-shadow: inset 0px 4px 10px #e0e0e0;
+  box-shadow: inset 0px 2px 5px #e0e0e0;
 }
 
 header .menu_box-bg.hover {
   visibility: visible;
   opacity: 1;
-  transform: translateY(0);
   transition: all 0.3s;
 }
 /* PC Top bar 끝 */
