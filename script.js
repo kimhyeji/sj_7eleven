@@ -1,16 +1,10 @@
 // header
 function HeaderMenu() {
     // bg
-    $("header > .top_bar > .menu_box > ul").hover(function() {
-        $(this).addClass('hover');
-        $(this).closest('header').children('.menu_box-bg').addClass('hover');
-    });
-
-    
-
-    $(".menu_box-bg").mouseleave(function() {
-        $(this).removeClass('hover');
-        console.log("hover");
+    $("header > .top_bar > .menu_box > ul, .menu_box-bg").hover(function() {
+        $("header > .top_bar > .menu_box > ul, .menu_box-bg").addClass("hover");
+    }, function() {
+        $("header > .top_bar > .menu_box > ul, .menu_box-bg").removeClass("hover");
     });
 
     //  first menu text color
