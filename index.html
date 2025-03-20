@@ -1,0 +1,1905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- tailwind -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="content_box">
+        <!-- PC Top bar -->
+        <header class="pc-vs">
+            <div class="menu_box-bg"></div>
+            <div class="top_bar">
+                <div class="logo_1">
+                    <a href="#">
+                        <img src="https://www.7-eleven.co.kr/front/img/com/logo.png" alt="">
+                    </a>
+                </div>
+                
+                <!-- menu box -->
+                <div class="menu_box">
+                    <ul>
+                        <li>
+                            <a href="#">EVENT</a>
+                            <div class="menu_box-sec">
+                                <ul>
+                                    <li>
+                                        <a href="#">진행중인 이벤트</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">완료된 이벤트</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            어린이 미술대회
+                                            <br>
+                                            온라인 갤러리
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">PRODUCT</a>
+                            <div>
+                                <div class="menu_box-sec">
+                                    <ul>
+                                        <li><a href="#">Fresh Food</a></li>
+                                        <li><a href="#">세븐카페</a></li>
+                                        <li><a href="#">이달의 증정할인</a></li>
+                                        <li><a href="#">PB상품/신상품</a></li>
+                                        <li><a href="#">할인·멤버십 카드</a></li>
+                                        <li><a href="#">E-Catalog</a></li>
+                                        <li><a href="#">도시락 전단지</a></li>
+                                        <li><a href="#">서비스안내</a></li>
+                                        <li><a href="#">스마트픽</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                ABOUT
+                                <br>
+                                7-ELEVEN
+                            </a>
+                            <div>
+                                <div class="menu_box-sec">
+                                    <ul>
+                                        <li><a href="#">회사소개</a></li>
+                                        <li> <a href="#">ESG경영</a></li>
+                                        <li><a href="#">윤리경영</a></li>
+                                        <li> <a href="#">환경경영</a></li>
+                                        <li><a href="#">안전·보건경영</a></li>
+                                        <li><a href="#">채용안내</a></li>
+                                        <li><a href="#">고객의 소리</a></li>
+                                        <li><a href="#">공지사항</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">PARTNER</a>
+                            <div>
+                                <div class="menu_box-sec">
+                                    <ul>
+                                        <li><a href="#">상품입점상담</a></li>
+                                        <li><a href="#">동반성장</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">창업안내</a>
+                            <div>
+                                <div class="menu_box-sec">
+                                    <ul>
+                                        <li><a href="#">창업가이드</a></li>
+                                        <li><a href="#">창업상담</a></li>
+                                        <li><a href="#">창업설명회</a></li>
+                                        <li><a href="#">창업성공기</a></li>
+                                        <li><a href="#">창업점포추천</a></li>
+                                        <li><a href="#">경영주계약서조회</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="logo_2">
+                    <img src="https://www.7-eleven.co.kr/front/img/com/img_group_logo.png" alt="">
+                </div>
+            </div>
+        
+        </header>
+
+        <!-- mobile Top bar -->
+        <header class="top_bar_box mobile-vs">
+            <div class="mobile-top_bar flex">
+                <div class="icon">
+                    <a href="#">
+                        <img src="https://www.7-eleven.co.kr/front/img/com/logo.png" alt="">
+                    </a>
+                </div>
+                
+                <!-- menu box -->
+                <div class="mobile-menu_box flex">
+                    <ul class="flex">
+                        <li>
+                            <a href="#">EVENT</a>
+                            <div class="mobile-menu_box-sec">
+                                <ul>
+                                    <div class="menu_box-bg"></div>
+                                    <li>
+                                        <a href="#">진행중인 이벤트</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">완료된 이벤트</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            어린이 미술대회
+                                            <br>
+                                            온라인 갤러리
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">PRODUCT</a>
+                            <div>
+                                <div class="menu_box-sec">
+                                    <ul>
+                                        <li><a href="#">Fresh Food</a></li>
+                                        <li><a href="#">세븐카페</a></li>
+                                        <li><a href="#">이달의 증정할인</a></li>
+                                        <li><a href="#">PB상품/신상품</a></li>
+                                        <li><a href="#">할인·멤버십 카드</a></li>
+                                        <li><a href="#">E-Catalog</a></li>
+                                        <li><a href="#">도시락 전단지</a></li>
+                                        <li><a href="#">서비스안내</a></li>
+                                        <li><a href="#">스마트픽</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">ABOUT
+                                <br>
+                                7-ELEVEN
+                            </a>
+                            <div>
+                                <div class="menu_box-sec">
+                                    <ul>
+                                        <li><a href="#">회사소개</a></li>
+                                        <li> <a href="#">ESG경영</a></li>
+                                        <li><a href="#">윤리경영</a></li>
+                                        <li> <a href="#">환경경영</a></li>
+                                        <li><a href="#">안전·보건경영</a></li>
+                                        <li><a href="#">채용안내</a></li>
+                                        <li><a href="#">고객의 소리</a></li>
+                                        <li><a href="#">공지사항</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">PARTNER</a>
+                            <div>
+                                <div class="menu_box-sec">
+                                    <ul>
+                                        <li><a href="#">상품입점상담</a></li>
+                                        <li><a href="#">동반성장</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">창업안내</a>
+                            <div>
+                                <div class="menu_box-sec">
+                                    <ul>
+                                        <li><a href="#">창업가이드</a></li>
+                                        <li><a href="#">창업상담</a></li>
+                                        <li><a href="#">창업설명회</a></li>
+                                        <li><a href="#">창업성공기</a></li>
+                                        <li><a href="#">창업점포추천</a></li>
+                                        <li><a href="#">경영주계약서조회</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <img src="https://www.7-eleven.co.kr/front/img/com/img_group_logo.png" alt="">
+                </div>
+            </div>
+        </header>
+
+        <!-- PC main con -->
+        <section class="main_con flex pc-vs">
+            <div class="main_slider flex">
+                <div class="main_page">
+                    <div class="event_box flex">
+                        <span>EVENT</span>
+                    </div>
+                    <div class="main_box">
+                        <div class="tit_box">
+                            <span>3월 혜택 모음.zip
+                                <br>
+                                한눈에 확인
+                            </span>
+                        </div>
+                        <div class="txt_box">
+                            <small>
+                                🌸 봄맞이 특별 혜택 총정리!
+                                <br>
+                                어떤 이벤트가 있는지 지금 확인하세요!
+                            </small>
+                        </div>
+                        <a href="https://www.7-eleven.co.kr/event/eventList.asp" class="more_btn">
+                            <span>더보기</span>
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="img_box">
+                    <img src="" alt="">
+                </div>
+            </div>
+
+            <div class="slide_bar">
+
+            </div>
+        </section>
+
+        <!-- mobile main con -->
+        <section class="main_con flex mobile-vs">
+            <div class="mobile-main_slider flex">
+                <div class="main_page">
+                    <div class="event_box flex">
+                        <span>EVENT</span>
+                    </div>
+                    <div class="main_box">
+                        <div class="tit_box">
+                            <span>3월 혜택 모음.zip
+                                <br>
+                                한눈에 확인
+                            </span>
+                        </div>
+                        <div class="txt_box">
+                            <small>
+                                🌸 봄맞이 특별 혜택 총정리!
+                                <br>
+                                어떤 이벤트가 있는지
+                                지금 확인하세요!
+                            </small>
+                        </div>
+                        <a href="https://www.7-eleven.co.kr/event/eventList.asp" class="more_btn">
+                            <span>더보기</span>
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="img_box">
+                    <img src="" alt="">
+                </div>
+            </div>
+
+            <div class="slide_bar">
+
+            </div>
+        </section>
+
+        <!-- PC 2page -->
+        <section class="sec_box_2 pc-vs">
+            <div class="event_box_sec">
+                <div class="tit_box">
+                    <div class="tit">
+                        <span>상콤 달콤한 향이 가득 느껴지는</span>
+                        <strong>세븐일레븐의 3월 이벤트</strong>
+                    </div>
+                    <a href="https://www.7-eleven.co.kr/event/eventList.asp" class="more_btn">
+                        <span>더보기</span>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </div>
+                <div class="event_box">
+                    <ul class="flex">
+                        <li>
+                            <div class="img_box">
+                                <img src="/seven/20250123142828216r512.png" alt="">
+                            </div>
+                            <div class="tit_box">
+                                <div>[EVENT] 웨하스 증정 이벤트</div>
+                                <div>25/02/01 - 25/02/28</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img_box">
+                                <img src="/seven/20250123142922728r74.png" alt="">
+                            </div>
+                            <div class="tit_box">
+                                <div>[EVENT] 농협 제휴카드
+                                    <br>
+                                    20% 할인 이벤트</div>
+                                <div>25/02/01 - 25/02/28</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img_box">
+                                <img src="/seven/20250123143414532r794.png" alt="">
+                            </div>
+                            <div class="tit_box">
+                                <div>[EVENT] 카카오 제휴
+                                    <br>
+                                    20% 할인 이벤트</div>
+                                <div>25/02/01 - 25/02/28</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img_box">
+                                <img src="/seven/20250123143530604r91.png" alt="">
+                            </div>
+                            <div class="tit_box">
+                                <div>[EVENT] 한정판 이벤트</div>
+                                <div>25/02/01 - 25/02/28</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- mobile 2page -->
+        <section class="sec_box_2 mobile-vs mb-con_2">
+            <div class="mobile-event_box_sec">
+                <div class="tit_box">
+                    <div class="tit">
+                        <span>상콤 달콤한 향이 가득 느껴지는</span>
+                        <strong>세븐일레븐의 3월 이벤트</strong>
+                    </div>
+                    <a href="https://www.7-eleven.co.kr/event/eventList.asp" class="more_btn">
+                        <span>더보기</span>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </div>
+                <div class="event_box ">
+                    <ul class="flex">
+                        <div class="sec_t">
+                            <li>
+                                <div class="img_box">
+                                    <img src="/seven/20250123142828216r512.png" alt="">
+                                </div>
+                                <div class="tit_box">
+                                    <div>[EVENT] 웨하스 증정 이벤트</div>
+                                    <div>25/02/01 - 25/02/28</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img_box">
+                                    <img src="/seven/20250123142922728r74.png" alt="">
+                                </div>
+                                <div class="tit_box">
+                                    <div>[EVENT] 농협 제휴카드
+                                        <br>
+                                        20% 할인 이벤트</div>
+                                    <div>25/02/01 - 25/02/28</div>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="sec_b">
+                            <li>
+                                <div class="img_box">
+                                    <img src="/seven/20250123143414532r794.png" alt="">
+                                </div>
+                                <div class="tit_box">
+                                    <div>[EVENT] 카카오 제휴
+                                        <br>
+                                        20% 할인 이벤트</div>
+                                    <div>25/02/01 - 25/02/28</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img_box">
+                                    <img src="/seven/20250123143530604r91.png" alt="">
+                                </div>
+                                <div class="tit_box">
+                                    <div>[EVENT] 한정판 이벤트</div>
+                                    <div>25/02/01 - 25/02/28</div>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- PC 3page -->
+        <section class="sec_box_3 pc-vs sec_box_3_wrap" data-aos="fade-up">
+            <div class="tit_box">
+                <small>팡팡 터지는 이벤트에 즐거움이 더해지는</small>
+                <span>세븐일레븐의 3월 증정행사</span>
+            </div>
+            <div class="menu_box">
+                <ul class="tab-box-1__head flex">
+                    <li class="tab-box-1__item tab-box-1__item-1 active">
+                        <button class="block text-center whitespace-nowrap">
+                            <span>1+1</span>
+                        </button>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-2">
+                        <button class=" block text-center whitespace-nowrap">
+                            <span>2+1</span>
+                        </button>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-3">
+                        <button class=" block text-center whitespace-nowrap">
+                            <span>증정행사</span>
+                        </button>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-4">
+                        <button class=" block text-center whitespace-nowrap">
+                            <span>할인행사</span>
+                        </button>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-5">
+                        <button class=" block text-center whitespace-nowrap">
+                            <span>PB상품</span>
+                        </button>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-6">
+                        <a href="https://www.7-eleven.co.kr/product/presentList.asp" class=" block text-center whitespace-nowrap">
+                            <span>더보기</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="event_box_sec flex">
+                <div class="txt_box flex">
+                    <div class="txt">
+                        <span>
+                            1+1은
+                            <br>
+                            행복이
+                            <br>
+                            2배!
+                        </span>
+                        <small>
+                            하나를 사면 하나는 덤!
+                            <br>
+                            두 배의 즐거움을 경험하세요.
+                        </small>
+                    </div>
+                </div>
+                <ul class="tab-box-1__body">
+                    <li class="tab-box-1__item tab-box-1__item-1 active">
+                        <div class="swiper-box-1">
+                            <div class="swiper event_box flex">
+                                <div class="swiper-wrapper con_box">
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>다논액티비아업플레인210ml</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>다논액티비아업플레인210ml</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>다논액티비아업플레인210ml</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>다논액티비아업플레인210ml</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>다논액티비아업플레인210ml</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-2">
+                        <div class="swiper-box-1">
+                            <div class="swiper event_box flex">
+                                <div class="swiper-wrapper con_box">
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>ㅇ</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>ㅇㅇ</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>ㅇㅇㅇ</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>ㅇㅇㅇ</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>ㅇㅇㅇ</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-3">
+                        <div class="swiper-box-1">
+                            <div class="swiper event_box flex">
+                                <div class="swiper-wrapper con_box">
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>333</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>3333</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>33</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>33</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>33</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-4">
+                        <div class="swiper-box-1">
+                            <div class="swiper event_box flex">
+                                <div class="swiper-wrapper con_box">
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>4</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>44</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>44</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>44</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>44</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-5">
+                        <div class="swiper-box-1">
+                            <div class="swiper event_box flex">
+                                <div class="swiper-wrapper con_box">
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>55</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>55</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>55</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>55</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>55</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navigation-wrapper">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+        <!-- mobile 3page -->
+        <section class="mobile-sec_box_3 mobile-vs sec_box_3_wrap" data-aos="fade-up">
+            <div class="tit_box">
+                <small>팡팡 터지는 이벤트에 즐거움이 더해지는</small>
+                <span>세븐일레븐의 3월 증정행사</span>
+            </div>
+            <div class="menu_box">
+                <ul class="tab-box-1__head flex">
+                    <li class="tab-box-1__item tab-box-1__item-1 active">
+                        <button class="block text-center whitespace-nowrap">
+                            <span>1+1</span>
+                        </button>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-2">
+                        <button class=" block text-center whitespace-nowrap">
+                            <span>2+1</span>
+                        </button>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-3">
+                        <button class=" block text-center whitespace-nowrap">
+                            <span>증정행사</span>
+                        </button>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-4">
+                        <button class=" block text-center whitespace-nowrap">
+                            <span>할인행사</span>
+                        </button>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-5">
+                        <button class=" block text-center whitespace-nowrap">
+                            <span>PB상품</span>
+                        </button>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-6">
+                        <a href="https://www.7-eleven.co.kr/product/presentList.asp" class=" block text-center whitespace-nowrap">
+                            <span>더보기</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="event_box_sec flex">
+                <div class="txt_box flex">
+                    <div class="txt">
+                        <span>
+                            1+1은
+                            <br>
+                            행복이
+                            <br>
+                            2배!
+                        </span>
+                        <small>
+                            하나를 사면 하나는 덤!
+                            <br>
+                            두 배의 즐거움을 경험하세요.
+                        </small>
+                    </div>
+                </div>
+                <ul class="tab-box-1__body">
+                    <li class="tab-box-1__item tab-box-1__item-1 active">
+                        <div class="swiper-box-1">
+                            <div class="swiper event_box flex">
+                                <div class="swiper-wrapper con_box">
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>다논액티비아업플레인210ml</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>다논액티비아업플레인210ml</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>다논액티비아업플레인210ml</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>다논액티비아업플레인210ml</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>다논액티비아업플레인210ml</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-2">
+                        <div class="swiper-box-1">
+                            <div class="swiper event_box flex">
+                                <div class="swiper-wrapper con_box">
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>ㅇ</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>ㅇㅇ</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>ㅇㅇㅇ</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>ㅇㅇㅇ</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>ㅇㅇㅇ</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-3">
+                        <div class="swiper-box-1">
+                            <div class="swiper event_box flex">
+                                <div class="swiper-wrapper con_box">
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>333</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>3333</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>33</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>33</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>33</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-4">
+                        <div class="swiper-box-1">
+                            <div class="swiper event_box flex">
+                                <div class="swiper-wrapper con_box">
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>4</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>44</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>44</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>44</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>44</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tab-box-1__item tab-box-1__item-5">
+                        <div class="swiper-box-1">
+                            <div class="swiper event_box flex">
+                                <div class="swiper-wrapper con_box">
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>55</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>55</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>55</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>55</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="/seven/510893.1.jpg" alt="">
+                                            <div class="img_txt_box">
+                                                <span>55</span>
+                                                <small>2,200원</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navigation-wrapper">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+        <!-- Marquee -->
+        <section class="mq_box">
+            <div class="marquee_wrapper">
+                <div class="marquee marquee-1">
+                    <span>전세계 7-ELEVEN 하루 방문자 수 6000만 🥳</span>
+                    <span class="stroke-r">매일 3.5시간마다 점포 1개 오픈 😎🎉</span>
+                    <span>전세계 7-ELEVEN 하루 방문자 수 6000만 🥳</span>
+                    <span class="stroke-r">매일 3.5시간마다 점포 1개 오픈 😎🎉</span>
+                </div>
+                <div class="marquee marquee-1">
+                    <span>전세계 7-ELEVEN 하루 방문자 수 6000만 🥳</span>
+                    <span class="stroke-r">매일 3.5시간마다 점포 1개 오픈 😎🎉</span>
+                    <span>전세계 7-ELEVEN 하루 방문자 수 6000만 🥳</span>
+                    <span class="stroke-r">매일 3.5시간마다 점포 1개 오픈 😎🎉</span>
+                </div>
+            </div>
+
+            <div class="marquee_wrapper reverse">
+                <div class="marquee marquee-2">
+                    <span class="stroke-r">매일 3.5시간마다 점포 1개 오픈 😎🎉</span>
+                    <span>전세계 7-ELEVEN 하루 방문자 수 6000만 🥳</span>
+                    <span class="stroke-r">매일 3.5시간마다 점포 1개 오픈 😎🎉</span>
+                    <span>전세계 7-ELEVEN 하루 방문자 수 6000만 🥳</span>
+                </div>
+                <div class="marquee marquee-2">
+                    <span class="stroke-r">매일 3.5시간마다 점포 1개 오픈 😎🎉</span>
+                    <span>전세계 7-ELEVEN 하루 방문자 수 6000만 🥳</span>
+                    <span class="stroke-r">매일 3.5시간마다 점포 1개 오픈 😎🎉</span>
+                    <span>전세계 7-ELEVEN 하루 방문자 수 6000만 🥳</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- PC Partner -->
+        <section class="sec_box_4 pc-vs container mx-auto">
+            <div class="con_box">
+                <div class="tit_box">
+                    <small>창업 성공의 길, 7-ELEVEN이 함께 합니다.</small>
+                    <strong>PARTNER</strong>
+                </div>
+                <div class="con_icon_box grid-class">
+                    <div class="icon_t your-grid-class">
+                        <div class="txt_box">
+                            <div class="txt">
+                                <strong>창업 상담</strong>
+                                <small>최고의 상품과 서비스로
+                                <br>
+                                성공 창업을 도와드립니다.</small>
+                            </div>
+                            <div class="img_box">
+                                <img class="img_1" src="/seven/image 2385.png" alt="">
+                                <img class="img_2" src="/seven/4596115-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="txt_box">
+                            <div class="txt">
+                                <strong>가맹타입별조건</strong>
+                                <small>성공창업의 길, 세븐일레븐이
+                                <br>
+                                최선을 다해 안내해드립니다.</small>
+                            </div> 
+                            <div class="img_box">
+                                <img class="img_1" src="/seven/18573713.png" alt="">
+                                <img class="img_2" src="/seven/18573713-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="txt_box">
+                            <div class="txt">
+                                <strong>창업설명회</strong>     
+                                <small>업계 1위의 브랜드를 자랑하는
+                                <br>
+                                세븐일레븐의 남다른 노하우!</small>
+                            </div>
+                            <div class="img_box">
+                                <img class="img_1" src="/seven/image 2383.png" alt="">
+                                <img class="img_2" src="/seven/1436664-1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icon_b your-grid-class">
+                        <div class="txt_box">
+                            <div class="txt">
+                                <strong>창업절차</strong>
+                                <small>세븐일레븐 가맹점 대표님에게
+                                <br>
+                                성공 신화를 만들어 드립니다.</small>
+                            </div>
+                            <div class="img_box">
+                                <img class="img_1" src="/seven/image 2388.png" alt="">
+                                <img class="img_2" src="/seven/12124165-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="txt_box">
+                            <div class="txt">
+                                <strong>창업점포추천</strong>
+                                <small>세븐일레븐이 추천하는
+                                <br>
+                                최상의 점포입니다.</small>
+                            </div>
+                            <div class="img_box">
+                                <img class="img_1" src="/seven/free-icon-recommended-star-2301905.png" alt="">
+                                <img class="img_2" src="/seven/free-icon-recommended-star-2301940.png" alt="">
+                            </div>
+                        </div>
+                        <div class="txt_box">
+                            <div class="txt">
+                                <strong>창업성공기</strong>
+                                <small>단골고객을 사로잡는 것은
+                                <br>
+                                “꾸준한 진심”</small>
+                            </div>
+                            <div class="img_box">
+                                <img class="img_1" src="/seven/image 2390.png" alt="">
+                                <img class="img_2" src="/seven/free-icon-heart-6299683.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PC 5page -->
+        <!-- <div class="sec_box_5 pc-vs sec_box_5_wrap">
+            <div class="sec_box_5_pc_wrap">
+                <div class="sec_5_con flex">
+                    <div class="tit_box">
+                        <div class="txt_box">
+                            <small>상생경영을 추구하는 대한민국 최초 편의점</small>
+                            <strong>세븐일레븐, <br> 고객과 함께 성장하는 <br> 스마트 경영</strong>
+                        </div>
+                        <div class="txt">
+                            <ul class="tab-box-1__head">
+                                <li class="tab-box-1__item active" data-swiper="swiper-1">
+                                    <span>친환경기여도 [Environment]</span>
+                                </li>
+                                <li class="tab-box-1__item" data-swiper="swiper-2">
+                                    <span>사회공헌 및 상생 [Social Responsibility]</span>
+                                </li>
+                                <li class="tab-box-1__item" data-swiper="swiper-3">
+                                    <span>지배구조의 투명성 [Governance]</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="swiper-container">
+                        <div class="mySwiper swiper-1 active-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="/seven/image_친환경.png" alt="폐기물 정리">
+                                    <div class="img-text">폐기물 정리 <br> 친환경적인 반도체 green7 캠페인</div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="/seven/image_폐기물.png" alt="폐기물 정리">
+                                    <div class="img-text">폐기물 정리 <br> 친환경적인 반도체 green7 캠페인</div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="/seven/image_환경경영.png" alt="폐기물 정리">
+                                    <div class="img-text">폐기물 정리 <br> 친환경적인 반도체 green7 캠페인</div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-container">
+                        <div class="mySwiper swiper-2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="/seven/image_친환경.png" alt="폐기물 정리">
+                                    <div class="img-text">폐기물 정리 <br> 친환경적인 반도체 green7 캠페인</div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="/seven/image_폐기물.png" alt="폐기물 정리">
+                                    <div class="img-text">폐기물 정리 <br> 친환경적인 반도체 green7 캠페인</div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="/seven/image_환경경영.png" alt="폐기물 정리">
+                                    <div class="img-text">폐기물 정리 <br> 친환경적인 반도체 green7 캠페인</div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-container">
+                        <div class="mySwiper swiper-3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="/seven/image_친환경.png" alt="폐기물 정리">
+                                    <div class="img-text">폐기물 정리 <br> 친환경적인 반도체 green7 캠페인</div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="/seven/image_폐기물.png" alt="폐기물 정리">
+                                    <div class="img-text">폐기물 정리 <br> 친환경적인 반도체 green7 캠페인</div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="/seven/image_환경경영.png" alt="폐기물 정리">
+                                    <div class="img-text">폐기물 정리 <br> 친환경적인 반도체 green7 캠페인</div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <section class="sec_box_5 pc-vs sec_box_5_wrap">
+            <div class="sec_box_5_pc_wrap">
+                <div class="sec_5_con">
+                    <div class="menu_box">
+                        <div class="tit_box">
+                            <small>상생경영을 추구하는 대한민국 최초 편의점</small>
+                            <strong>세븐일레븐, <br> 고객과 함께 성장하는 <br> 스마트 경영</strong>
+                        </div>
+                        <ul class="tab-box-1__head">
+                            <li class="tab-box-1__item tab-box-1__item-1 active">
+                                <button class="block text-center whitespace-nowrap">
+                                    <span>친환경기여도 [Environment]</span>
+                                </button>
+                            </li>
+                            <li class="tab-box-1__item tab-box-1__item-2">
+                                <button class=" block text-center whitespace-nowrap">
+                                    <span>사회공헌 및 상생 [Social Responsibility]</span>
+                                </button>
+                            </li>
+                            <li class="tab-box-1__item tab-box-1__item-3">
+                                <button class=" block text-center whitespace-nowrap">
+                                    <span>지배구조의 투명성 [Governance]</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="event_box_sec flex">
+                        <ul class="tab-box-1__body">
+                            <li class="tab-box-1__item tab-box-1__item-1 active">
+                                <div class="swiper-box-2">
+                                    <div class="swiper event_box flex">
+                                        <div class="swiper-wrapper con_box">
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/친환경기여도.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>다논액티비아업플레인210ml</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/친환경_상품.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>다논액티비아업플레인210ml</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/폐기물.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>다논액티비아업플레인210ml</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tab-box-1__item tab-box-1__item-2">
+                                <div class="swiper-box-2">
+                                    <div class="swiper event_box flex">
+                                        <div class="swiper-wrapper con_box">
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/친환경기여도.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>다논액티비아업플레인210ml</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/친환경_상품.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>다논액티비아업플레인210ml</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/폐기물.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>다논액티비아업플레인210ml</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tab-box-1__item tab-box-1__item-3">
+                                <div class="swiper-box-2">
+                                    <div class="swiper event_box flex">
+                                        <div class="swiper-wrapper con_box">
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/친환경기여도.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>다논액티비아업플레인210ml</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/친환경_상품.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>다논액티비아업플레인210ml</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/폐기물.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>다논액티비아업플레인210ml</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- mobile 5page -->
+        <section class="mobile-sec_box_5 mobile-vs">
+            <div class="sec_box_5_mb_wrap">
+                <div class="sec_5_con">
+                    <div class="menu_box">
+                        <div class="tit_box">
+                            <small>상생경영을 추구하는 대한민국 최초 편의점</small>
+                            <strong>세븐일레븐, <br> 고객과 함께 성장하는 <br> 스마트 경영</strong>
+                        </div>
+                        <ul class="tab-box-1__head">
+                            <li class="tab-box-1__item tab-box-1__item-1 active">
+                                <button class="block text-center whitespace-nowrap">
+                                    <span>친환경기여도 [Environment]</span>
+                                </button>
+                            </li>
+                            <li class="tab-box-1__item tab-box-1__item-2">
+                                <button class=" block text-center whitespace-nowrap">
+                                    <span>사회공헌 및 상생 [Social Responsibility]</span>
+                                </button>
+                            </li>
+                            <li class="tab-box-1__item tab-box-1__item-3">
+                                <button class=" block text-center whitespace-nowrap">
+                                    <span>지배구조의 투명성 [Governance]</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="event_box_sec flex">
+                        <ul class="tab-box-1__body">
+                            <li class="tab-box-1__item tab-box-1__item-1 active">
+                                <div class="swiper-box-2">
+                                    <div class="swiper event_box flex">
+                                        <div class="swiper-wrapper con_box">
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/친환경기여도.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>dd</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/친환경_상품.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>dd</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/폐기물.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>dd</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tab-box-1__item tab-box-1__item-2">
+                                <div class="swiper-box-2">
+                                    <div class="swiper event_box flex">
+                                        <div class="swiper-wrapper con_box">
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/친환경기여도.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>33</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/친환경_상품.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>33</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/폐기물.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>33</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tab-box-1__item tab-box-1__item-3">
+                                <div class="swiper-box-2">
+                                    <div class="swiper event_box flex">
+                                        <div class="swiper-wrapper con_box">
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/친환경기여도.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>다논액티비아업플레인210ml</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/친환경_상품.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>다논액티비아업플레인210ml</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="img_box">
+                                                    <img src="/seven/폐기물.jpg" alt="">
+                                                    <div class="img_txt_box">
+                                                        <span>다논액티비아업플레인210ml</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PC 6page -->
+        <section class="sec_box_6 pc-vs">
+            <div class="sec_box_6_pc_wrap" data-aos="fade-left">
+                <div class="sec_6_con">
+                    <div class="con_box">
+                        <div class="tit_box">
+                            <span>공지사항</span>
+                        </div>
+                        <div class="txt_con">
+                            <a href="https://www.7-eleven.co.kr/about/customer/noticeList.asp" class="txt_box">
+                                <span class="date">2025-02-11</span>
+                                <span class="title">개인정보처리방침 개정 안내</span>
+                                <div class="icon_box">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="txt_con">
+                            <a href="https://www.7-eleven.co.kr/about/customer/noticeList.asp" class="txt_box">
+                                <span class="date">2025-01-02</span>
+                                <span class="title">(주)코리아세븐 2024년 4분기 이사회 운영 안내</span>
+                                <div class="icon_box">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="txt_con">
+                            <a href="https://www.7-eleven.co.kr/about/customer/noticeList.asp" class="txt_box">
+                                <span class="date">2024-12-10</span>
+                                <span class="title">시스템 점검 안내</span>
+                                <div class="icon_box">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="txt_con">
+                            <a href="https://www.7-eleven.co.kr/about/customer/noticeList.asp" class="txt_box">
+                                <span class="date">2024-10-25</span>
+                                <span class="title">개인정보처리방침 & 영상정보처리기기 ...</span>
+                                <div class="icon_box">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- mobile 6page -->
+        <section class="sec_box_6 mobile-vs" data-aos="fade-left">
+            <div class="sec_box_6_mb_wrap">
+                <div class="mobile-sec_6_con">
+                    <div class="con_box">
+                        <div class="tit_box">
+                            <span>공지사항</span>
+                        </div>
+                        <div class="txt_con">
+                            <a href="https://www.7-eleven.co.kr/about/customer/noticeList.asp" class="txt_box">
+                                <span class="date">2025-02-11</span>
+                                <span class="title">개인정보처리방침 개정 안내</span>
+                                <div class="icon_box">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="txt_con">
+                            <a href="https://www.7-eleven.co.kr/about/customer/noticeList.asp" class="txt_box">
+                                <span class="date">2025-01-02</span>
+                                <span class="title">(주)코리아세븐 2024년 4분기 이사회 운영 안내</span>
+                                <div class="icon_box">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="txt_con">
+                            <a href="https://www.7-eleven.co.kr/about/customer/noticeList.asp" class="txt_box">
+                                <span class="date">2024-12-10</span>
+                                <span class="title">시스템 점검 안내</span>
+                                <div class="icon_box">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="txt_con">
+                            <a href="https://www.7-eleven.co.kr/about/customer/noticeList.asp" class="txt_box">
+                                <span class="date">2024-10-25</span>
+                                <span class="title">개인정보처리방침 & 영상정보처리기기 ...</span>
+                                <div class="icon_box">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PC 7page -->
+        <section class="sec_box_7 pc-vs">
+            <div class="sec_box_7_pc_wrap">
+                <div class="sec_7_con">
+                    <div class="tit_box">
+                        <strong>STORE</strong>
+                        <small>내 주변 가까운 7-ELEVEN 위치를 안내 드립니다.</small>
+                    </div>
+                    <div class="search_box">
+                        <a href="/util/storeLayerPop.asp">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <span>매장찾기 바로 가기</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- mobile 7page -->
+        <section class="sec_box_7 mobile-vs">
+            <div class="sec_box_7_pc_wrap">
+                <div class="mobile-sec_7_con">
+                    <div class="tit_box">
+                        <strong>STORE</strong>
+                        <small>내 주변 가까운 7-ELEVEN 위치를 안내 드립니다.</small>
+                    </div>
+                    <div class="search_box">
+                        <a href="/util/storeLayerPop.asp">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <span>매장찾기 바로 가기</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PC Footer -->
+        <footer class="sec_footer pc-vs">
+            <div class="ft_box">
+                <div class="txt_box">
+                    <div class="txt">
+                        <div class="txt_t">
+                            <strong>CUSTOMER</strong>
+                            <a href="https://www.7-eleven.co.kr/about/customer/cvmsForm.asp">
+                                <span>고객의 소리</span>
+                            </a>
+                            <a href="https://www.7-eleven.co.kr/about/recruit/faqList.asp">
+                                <span>채용문의</span>
+                            </a>
+                            <a href="https://www.7-eleven.co.kr/franchise/joinadvice/joinadviceOld.asp">
+                                <span>창업상담</span>
+                            </a>
+                            <a href="https://www.7-eleven.co.kr/product/advice.asp">
+                                <span>입점문의</span>
+                            </a>
+                        </div>
+                        <div class="txt_b">
+                            <strong>RECRUIT</strong>
+                            <a href="https://www.7-eleven.co.kr/about/recruit/employmentList.asp">
+                                <span>기업채용</span>
+                            </a>
+                            <a href="https://www.7-eleven.co.kr/about/recruit/mate.asp">
+                                <span>MATE</span>
+                            </a>
+                            <a href="https://www.7-eleven.co.kr/about/trust/hotline.asp">
+                                <span>윤리핫라인</span>
+                            </a>
+                            <a href="https://www.7-eleven.co.kr/mp/sinmumgo/declareForm.asp">
+                                <span>불공정거래신고</span>
+                            </a>
+                            <a href="https://www.7-eleven.co.kr/about/environment/safetyhotline.asp">
+                                <span>안전보건핫라인</span>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="family_btn">
+                        <div class="btn_box flex">
+                            <span>FAMILY SITE</span>
+                            <div class="icon">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div class="ct_box flex">
+                    <div class="logo_box">
+                        <div class="img_con con_1">
+                            <div class="txt_box">
+                                <a href="https://www.7-eleven.co.kr/util/sitemap.asp">
+                                    <span>사이트맵</span>
+                                </a>
+                                <a href="https://www.7-eleven.co.kr/util/policyPrivacy.asp" class="txt_l">
+                                    <span>개입정보처리방침</span>
+                                </a>
+                                <a href="https://www.7-eleven.co.kr/util/videoPolicy.asp" class="txt_r">
+                                    <span>영상정보처리기기 운영·관리 방침</span>
+                                </a>
+                            </div>
+                            <div>
+                                <span>[인증법위] 코리아세븐 세븐일레븐 홈페이지 및 모바일 앱 서비스
+                                    <br>
+                                    [유효기간] 2024-02-07 ~ 2027-02-06
+                                </span>
+                            </div>
+                        </div>
+                        <div class="img_con con_2">  
+                            <div class="img_box">
+                                <img src="/seven/qr.gif" alt="">
+                            </div>
+                            <div class="img_box">
+                                <img src="/seven/ico_ISMSP.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-logo_box flex">
+                        <img src="/seven/footer_emblem.png" alt="">
+                        <img src="/seven/logo_f.png" alt="">
+                    </div>
+                </div>
+                <div class="b_txt_box">
+                    <div class="txt-b">
+                        <span>서울특별시 강동구 천호대로 1077 이스트센트럴타워 16~18층</span>
+                        <span>TEL 1577-0711 / FAX 02-2679-6860</span>
+                        <span>세븐일레븐 고객센터 : 1577-0711</span>
+                        <span>롯데택배 고객센터 : 1688-1211</span>
+                    </div>
+                    <strong>COPYRIGHT 2014 KOREA SEVEN CO, LTD. All Rights Reserved.</strong>
+                </div>
+            </div>
+        </footer>
+
+        <!-- mobile Footer -->
+        <footer class="sec_footer mobile-vs mb-sec_footer">
+            <div class="ft_box">
+                <div class="txt_box">
+                    <div class="txt">
+                        <div class="txt_t">
+                            <strong>CUSTOMER</strong>
+                            <a href="https://www.7-eleven.co.kr/about/customer/cvmsForm.asp">
+                                <span>고객의 소리</span>
+                            </a>
+                            <a href="https://www.7-eleven.co.kr/about/recruit/faqList.asp">
+                                <span>채용문의</span>
+                            </a>
+                            <a href="https://www.7-eleven.co.kr/franchise/joinadvice/joinadviceOld.asp">
+                                <span>창업상담</span>
+                            </a>
+                            <a href="https://www.7-eleven.co.kr/product/advice.asp">
+                                <span>입점문의</span>
+                            </a>
+                        </div>
+                        <div class="txt_b">
+                            <strong>RECRUIT</strong>
+                            <a href="https://www.7-eleven.co.kr/about/recruit/employmentList.asp">
+                                <span>기업채용</span>
+                            </a>
+                            <a href="https://www.7-eleven.co.kr/about/recruit/mate.asp">
+                                <span>MATE</span>
+                            </a>
+                            <a href="https://www.7-eleven.co.kr/about/trust/hotline.asp">
+                                <span>윤리핫라인</span>
+                            </a>
+                            <a href="https://www.7-eleven.co.kr/mp/sinmumgo/declareForm.asp">
+                                <span>불공정거래신고</span>
+                            </a>
+                            <a href="https://www.7-eleven.co.kr/about/environment/safetyhotline.asp">
+                                <span>안전보건핫라인</span>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="family_btn">
+                        <div class="btn_box flex">
+                            <span>FAMILY SITE</span>
+                            <div class="icon">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div class="ct_box flex">
+                    <div class="logo_box">
+                        <div class="img_con con_1">
+                            <div class="txt_box">
+                                <a href="https://www.7-eleven.co.kr/util/sitemap.asp">
+                                    <span>사이트맵</span>
+                                </a>
+                                <a href="https://www.7-eleven.co.kr/util/policyPrivacy.asp" class="txt_l">
+                                    <span>개입정보처리방침</span>
+                                </a>
+                                <a href="https://www.7-eleven.co.kr/util/videoPolicy.asp" class="txt_r">
+                                    <span>영상정보처리기기 운영·관리 방침</span>
+                                </a>
+                            </div>
+                            <div>
+                                <span>[인증법위] 코리아세븐 세븐일레븐 홈페이지 및 모바일 앱 서비스
+                                    <br>
+                                    [유효기간] 2024-02-07 ~ 2027-02-06
+                                </span>
+                            </div>
+                        </div>
+                        <div class="img_con con_2">  
+                            <div class="img_box">
+                                <img src="/seven/qr.gif" alt="">
+                            </div>
+                            <div class="img_box">
+                                <img src="/seven/ico_ISMSP.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-logo_box flex">
+                        <img src="/seven/footer_emblem.png" alt="">
+                        <img src="/seven/logo_f.png" alt="">
+                    </div>
+                </div>
+                <div class="b_txt_box">
+                    <div class="txt-b">
+                        <span>서울특별시 강동구 천호대로 1077 이스트센트럴타워 16~18층</span>
+                        <span>TEL 1577-0711 / FAX 02-2679-6860</span>
+                        <span>세븐일레븐 고객센터 : 1577-0711</span>
+                        <span>롯데택배 고객센터 : 1688-1211</span>
+                    </div>
+                    <strong>COPYRIGHT 2014 KOREA SEVEN CO, LTD. All Rights Reserved.</strong>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
